@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Employee>
+@{
+    ViewBag.Title = "Index";
+}
+
+@Html.ActionLink("Create", "Create", "Employee", new { @class = "btn btn-success" });
+
+<table class="table table-bordered" >
+    <tr>
+        <th>@Html.LabelFor(Model.ssn)</th>
+    </tr>
+</table>
